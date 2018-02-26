@@ -42,9 +42,12 @@ nav a {
 }
 
 nav a:hover {
-    padding: 0 10px;
     color: white;
     background-color: rosybrown;
+}
+
+nav a:active {
+    padding: 0 10px;
 }
 
 section a {
