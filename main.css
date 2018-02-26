@@ -38,6 +38,13 @@ h3 + h4 {
 nav a {
     padding: 0 5px;
     color: rosybrown;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rosybrown;
+    padding: 0 10px;
 }
 
 section a {
@@ -49,4 +56,14 @@ section a:hover {
     text-decoration: none;
     color: rosybrown;
     font-weight: 700;
+}
+
+/* Image Styles____________ */
+
+.icon {
+    width: 40px;
+}
+
+.icon:hover {
+    opacity: .65;
 }
