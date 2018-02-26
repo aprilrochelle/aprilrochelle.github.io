@@ -42,9 +42,9 @@ nav a {
 }
 
 nav a:hover {
+    padding: 0 10px;
     color: white;
     background-color: rosybrown;
-    padding: 0 10px;
 }
 
 section a {
@@ -61,7 +61,7 @@ section a:hover {
 /* Image Styles____________ */
 
 .icon {
-    width: 40px;
+    width: 45px;
 }
 
 .icon:hover {
