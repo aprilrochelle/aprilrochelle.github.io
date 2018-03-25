@@ -16,6 +16,12 @@ var blogs = [
         title: "More JavaScript. Double Yuck.", 
         date: "03/12/2018", 
         post: "So, I won't say that I'm quite ready to jump off a bridge, but I will say that our next group meeting could totally be at a bar and I'd be just fine with that. This past week's 'fun' little project was creating a holiday greeting translator, which also involved setting up a project in GitHub (so that we could get accustomed to how coding projects will actually go in the real world with the creation of tickets). I was nervous about the assignment from the jump, because, well, it IS JavaScript again. But it wasn't a total train wreck. So I guess that's good. My understanding of objects and functions had grown some from the previous week, which helped me to at least get off to a good start. Although I'm close to making it work, I apparently have a bug in my code that keeps the actual translation from showing up without the word 'undfined' before it. Still trying to figure out how to get rid of that. I am happy to report that I successfully coded an event listener for the translator buttons though. The class discussions we had on using GitHub in teams were pretty helpful. Feeling pretty confident in my ability to create, modify, work from and review tickets with my team, although I'm still feeling may way through how best to divide up the work into tickets. Still waiting on this JavaScript confidence to catch up though."
+    },
+    {
+        id: "blog4", 
+        title: "ES6, the DOM & Markdown", 
+        date: "03/25/2018", 
+        post: "Much better since the last entry. This practice with JavaScript has been frustrating at times, to say the least, but very much helpful. This week, we finally got to ES6, which I love since it makes the code cleaner and more concise. Excited about having completed my first single-page (super simple) app with the travel diary. Still working on a few of the bonus tasks, but I have an app that functions as it should and looks pretty good. Win! Very helpful instruction this week on traversing the DOM so that we can do more with event listeners. After the lesson on Markdown, I'm not super excited to go back through previous work to add Readme content, but I know it'll be beneficial, so I'm good with developing these good habits on the front end for potential employers later on."
     }
   ]
 
@@ -27,12 +33,11 @@ function writeToDom(input, divId) {
 function createBlogPosts(array) {
     var blogPost= '';
     array.forEach(function(blogObj) {
-        blogPost += '<h3 class="proj-id">' + blogObj.id + '</h3>';
-        blogPost += '<h2 class="proj-title">' + blogObj.title + '</h2>';
-        blogPost += '<p>' + blogObj.date + '<p>';
-        blogPost += '<p>' + blogObj.post + '</p>';
-    });
-        
+        blogPost += `<h3 class="proj-id">${blogObj.id}</h3>`;
+        blogPost += `<h2 class="proj-title">${blogObj.title}</h2>`;
+        blogPost += `<p>${blogObj.date}<p>`;
+        blogPost += `<p>${blogObj.post}</p>`;
+    });     
     writeToDom(blogPost, "blog");
 }
 
