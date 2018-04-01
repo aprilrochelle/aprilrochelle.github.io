@@ -26,11 +26,11 @@ var blogs = [
   ]
 
 
-function writeToDom(input, divId) {
+const writeToDom = (input, divId) => {
     document.getElementById(divId).innerHTML += input;
 }
 
-function createBlogPosts(array) {
+const createBlogPosts = (array) => {
     var blogPost= '';
     array.forEach(function(blogObj) {
         blogPost += `<h3 class="proj-id">${blogObj.id}</h3>`;

@@ -43,18 +43,18 @@ var projects = [
     }
   ];
 
-function writeToDom(input, divId) {
+const writeToDom = (input, divId) => {
     document.getElementById(divId).innerHTML += input;
 }
 
-function createProjectCards(array) {
+const createProjectCards = (array) => {
     var projectCard = '';
     array.forEach(function(projectObj) {
-        projectCard += '<h3 class="proj-id">' + projectObj.id + '</h3>';
-        projectCard += '<h2 class="proj-title">' + projectObj.title + '</h2>';
-        projectCard += '<img src="' + projectObj.imageUrl + '" width="300">';
-        projectCard += '<p>' + projectObj.description + '</p>';
-        projectCard += '<p><a href="' + projectObj.githubUrl + '" target="_blank">Explore on Github</a></p>';
+        projectCard += `<h3 class="proj-id">${projectObj.id}</h3>`;
+        projectCard += `<h2 class="proj-title">${projectObj.title}</h2>`;
+        projectCard += `<img src="${projectObj.imageUrl}" width="300">`;
+        projectCard += `<p>${projectObj.description}</p>`;
+        projectCard += `<p><a href="${projectObj.githubUrl}" target="_blank">Explore on Github</a></p>`;
     });
         
     writeToDom(projectCard, "project");
