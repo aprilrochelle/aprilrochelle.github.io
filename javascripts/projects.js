@@ -3,7 +3,7 @@ const writeToDom = (input, divId) => {
 }
 
 const createProjectCards = (array) => {
-    var projectCard = '';
+    let projectCard = '';
     array.forEach(function(projectObj) {
         projectCard += `<h3 class="proj-id">${projectObj.id}</h3>`;
         projectCard += `<h2 class="proj-title">${projectObj.title}</h2>`;
