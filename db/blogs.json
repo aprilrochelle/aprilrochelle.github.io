@@ -23,6 +23,12 @@
         "title": "ES6, the DOM & Markdown", 
         "date": "03/25/2018", 
         "post": "Much better since the last entry. This practice with JavaScript has been frustrating at times, to say the least, but very much helpful. This week, we finally got to ES6, which I love since it makes the code cleaner and more concise. Excited about having completed my first single-page (super simple) app with the travel diary. Still working on a few of the bonus tasks, but I have an app that functions as it should and looks pretty good. Win! Very helpful instruction this week on traversing the DOM so that we can do more with event listeners. After the lesson on Markdown, I'm not super excited to go back through previous work to add Readme content, but I know it'll be beneficial, so I'm good with developing these good habits on the front end for potential employers later on."
+    },
+    {
+        "id": "blog5", 
+        "title": "XHR", 
+        "date": "04/01/2018", 
+        "post": "This week was my introduction to JSON and the XMLHttpRequest. Actually enjoyed our code-along in class making the zoo app where animals could escape and eat each other. (I think all of us are a little sick in the head honestly.) After completing the in-class exercise (and coming off the high from doing well with the previous week's travel diary), I felt pretty good about my abillity to code the individual assignment for the week, the solar system app, but hit my first major hurdle shortly after beginning to write the code for the app. Both team mates and instructors were helpful in getting me over the hurdles of understanding how and when to make multiple XHR requests, use of anonymous functions in those requests, and also just general navigation of the bunny trails that result in functions calling other functions with multiple event listeners in the mix."
     }
   ]
 }
