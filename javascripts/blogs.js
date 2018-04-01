@@ -3,7 +3,7 @@ const writeToDom = (input, divId) => {
 }
 
 const createBlogPosts = (array) => {
-    var blogPost= '';
+    let blogPost= '';
     array.forEach(function(blogObj) {
         blogPost += `<h3 class="proj-id">${blogObj.id}</h3>`;
         blogPost += `<h2 class="proj-title">${blogObj.title}</h2>`;
