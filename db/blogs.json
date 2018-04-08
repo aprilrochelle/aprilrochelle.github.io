@@ -29,6 +29,12 @@
         "title": "XHR", 
         "date": "04/01/2018", 
         "post": "This week was my introduction to JSON and the XMLHttpRequest. Actually enjoyed our code-along in class making the zoo app where animals could escape and eat each other. (I think all of us are a little sick in the head honestly.) After completing the in-class exercise (and coming off the high from doing well with the previous week's travel diary), I felt pretty good about my abillity to code the individual assignment for the week, the solar system app, but hit my first major hurdle shortly after beginning to write the code for the app. Both team mates and instructors were helpful in getting me over the hurdles of understanding how and when to make multiple XHR requests, use of anonymous functions in those requests, and also just general navigation of the bunny trails that result in functions calling other functions with multiple event listeners in the mix."
+    },
+    {
+        "id": "blog6", 
+        "title": "Bootstrap and XHR", 
+        "date": "04/08/2018", 
+        "post": "So I'm noticing a trend... one where I pretty much contemplate quitting this program every Thursday through Saturday. This week was no exception. The XHR practice got a little (well, a lot) more complicated this week with the Bootstrap Superheroes in-class coding and the Treehouse cage match assignment. But I will NOT let it be the death of me. Lots of hammering it out, staring at the computer in frustration and question asking this week, but I made it. Feeling sliiiightly better about multiple XHR calls, though I'm still working to gan ground in my understanding of general logic where these function bunny trails are concerned. This week, I thought Bootstrap was gonna be that one thing that would make my coding life much easier, and the components are cool, but the CSS is a straight up pain in the ass. I tried using it to display badges in the exact same way that we setup superheroes to display with the in class assignment, but it didn't work at all. So while my cage match CSS isn't total 'blah,' it's definitely not as fancy as what the designer in me had in mind. I had hoped to be excited about Bootstrap, but I feel totally over it already."
     }
   ]
 }
