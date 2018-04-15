@@ -35,6 +35,12 @@
         "title": "Bootstrap and XHR", 
         "date": "04/08/2018", 
         "post": "So I'm noticing a trend... one where I pretty much contemplate quitting this program every Thursday through Saturday. This week was no exception. The XHR practice got a little (well, a lot) more complicated this week with the Bootstrap Superheroes in-class coding and the Treehouse cage match assignment. But I will NOT let it be the death of me. Lots of hammering it out, staring at the computer in frustration and question asking this week, but I made it. Feeling sliiiightly better about multiple XHR calls, though I'm still working to gan ground in my understanding of general logic where these function bunny trails are concerned. This week, I thought Bootstrap was gonna be that one thing that would make my coding life much easier, and the components are cool, but the CSS is a straight up pain in the ass. I tried using it to display badges in the exact same way that we setup superheroes to display with the in class assignment, but it didn't work at all. So while my cage match CSS isn't total 'blah,' it's definitely not as fancy as what the designer in me had in mind. I had hoped to be excited about Bootstrap, but I feel totally over it already."
+    },
+    {
+        "id": "blog7", 
+        "title": "Task Runners and Browserify", 
+        "date": "04/15/2018", 
+        "post": "Finally! I made it through the first week probably since homework started where I didn't think of quitting the program. Yay me! My confidence in my ability to do this has grown a tad bit, although I'm uncertain of the source of the growth, since just last week I found the cage match project quite challenging... Nonetheless, I'm taking a moment to appreciate the journey. This week was indeed a turning point in the instruction with us now using Browserify to package our JavaScript. Initial setup of site files takes quite a bit longer now with all the added steps; however, I can definitely see the benefit in not allowing site users access to variables or sensitive data that may live in a JavaScript file. I've determined that I just may need to use the slides from Zoe's PowerPoint presentation as a setup checklist the first 28 times before I get the hang of it. The introduction to task runners, specifically Grunt, was a bit annoying at first... All the rules and error messages before site preview were just... ugh. But again, I understand that it's helping me in the long run to write clean code. And I'm all for clean."
     }
   ]
 }
