@@ -53,6 +53,12 @@
         "title": "Chatty Group Project",
         "date": "05/10/2018",
         "post": "So we made our way to the assignment of another group project... the Chatty message board app. The recent group reassignments just prior to the project and the pretty lengthy list of requirements for the app definitely fostered some feelings of anxiety in me. However, I went into the project deciding that I would try picking at least one ticket that involved something I hadn't done before, which ended up dealing with the modal and all the necessary event listeners for it with requirements for the user's ability to change the page's appearance. Overall, the project was a success, and I think this group for me has been the most cohesive and easy-going to date, which made the work more enjoyable. Everyone was willing to assist each other as needed without question or complaint, which helped us to get things done with minimal time wasted. I also loved that we took our time to really, really plan out the coding - or at least the process of it. Sure, some cards or actual code turned out to be different than what we'd outlined in the beginning, but that was the exception and not the rule. We went into the project with a great starting point because we took the advice to 'over-plan', and we ended up with a pretty good project. "
+    },
+    {
+        "id": "blog10",
+        "title": "JQuery",
+        "date": "05/12/2018",
+        "post": "YAY for JQuery!!! I am totally loving this (way, way) more concise code. Funny thing is that because we've been doing it the harder way for nearly 3 months now, it's challenging at times for me to wrap my mind around the simpler method of selecting elements and taking action on them. Sometimes I write code and wonder, 'Is that all?' because I expected a step or two more. But I'm enjoying it more than probably anything else we've learned up to this point. With JQuery in my arsenal, I am literally not looking back!"
     }
   ]
 }
