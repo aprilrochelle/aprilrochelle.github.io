@@ -59,6 +59,12 @@
         "title": "JQuery",
         "date": "05/12/2018",
         "post": "YAY for JQuery!!! I am totally loving this (way, way) more concise code. Funny thing is that because we've been doing it the harder way for nearly 3 months now, it's challenging at times for me to wrap my mind around the simpler method of selecting elements and taking action on them. Sometimes I write code and wonder, 'Is that all?' because I expected a step or two more. But I'm enjoying it more than probably anything else we've learned up to this point. With JQuery in my arsenal, I am literally not looking back!"
+    },
+    {
+        "id": "blog11",
+        "title": "JQuery",
+        "date": "05/23/2018",
+        "post": "Promises really frazzled me at first... And then I got even MORE frazzled because I knew that I shouldn't be frazzled, since they were only replacing XHR requests to retrieve data. In retrospect, I think the issue was initially that we didn't finish the most challenging portion of the in-class code along exercise. So when I got to study group last week, I was pretty much stuck the whole time unsure of how to move forward from where I was. And again, that was partly my anxiety at work. I checked with some other students, and a couple who had completed the assignment either had some messy or verbose code or had approached the assignment in a very different way from me (making their code hard for me to follow). So, even more frustration. However, the additional insult generator code along exercises on Saturday was a SUPER fantastic help to me in sorting out what was going on with promises and I was finally able to find my way on part 2 of the Ex Traker assignment."
     }
   ]
 }
