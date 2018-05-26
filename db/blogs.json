@@ -65,6 +65,12 @@
         "title": "JQuery",
         "date": "05/23/2018",
         "post": "Promises really frazzled me at first... And then I got even MORE frazzled because I knew that I shouldn't be frazzled, since they were only replacing XHR requests to retrieve data. In retrospect, I think the issue was initially that we didn't finish the most challenging portion of the in-class code along exercise. So when I got to study group last week, I was pretty much stuck the whole time unsure of how to move forward from where I was. And again, that was partly my anxiety at work. I checked with some other students, and a couple who had completed the assignment either had some messy or verbose code or had approached the assignment in a very different way from me (making their code hard for me to follow). So, even more frustration. However, the additional insult generator code along exercises on Saturday was a SUPER fantastic help to me in sorting out what was going on with promises and I was finally able to find my way on part 2 of the Ex Traker assignment."
+    },
+    {
+        "id": "blog12",
+        "title": "API",
+        "date": "05/26/2018",
+        "post": "I've pretty much gotten used to the emotional rollercoaster that comes from the introduction of new material.. but so far so good on understanding APIs. I'm even pleasantly surprised at the mild enjoyment I'm getting out of digging for information and using Postman to investigate and analyze the data that returns from various APIs. I find it to be a super helpful tool. My local weather app is coming along slowly but surely, and although I'm interested in picking up the pace on my project coding, I'm more interested in making sure that I understand what's happening and am able to logically deduce next steps or at least know where to search or what to search for. I'm feeling a little stronger in this area than in times past; so that's progress. Taking a second to acknowledge and appreciate it before I move on to the next hurdle."
     }
   ]
 }
