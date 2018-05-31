@@ -71,6 +71,12 @@
         "title": "API",
         "date": "05/26/2018",
         "post": "I've pretty much gotten used to the emotional rollercoaster that comes from the introduction of new material.. but so far so good on understanding APIs. I'm even pleasantly surprised at the mild enjoyment I'm getting out of digging for information and using Postman to investigate and analyze the data that returns from various APIs. I find it to be a super helpful tool. My local weather app is coming along slowly but surely, and although I'm interested in picking up the pace on my project coding, I'm more interested in making sure that I understand what's happening and am able to logically deduce next steps or at least know where to search or what to search for. I'm feeling a little stronger in this area than in times past; so that's progress. Taking a second to acknowledge and appreciate it before I move on to the next hurdle."
+    },
+    {
+        "id": "blog13",
+        "title": "Firebase",
+        "date": "05/31/2018",
+        "post": "Although my understanding is still settling in, the introduction to Firebase this week was pretty cool. The ease of setting up a project database is great. I appreciate our progression from data housed in JSON files to creating, reading, updating and deleting data in a database via AJAX calls. When we started, I guess I expected that all things database would be learned once we got to the back end, but I was glad to know that we'd be getting our feet wet long before then. At this point with the introduction of Firebase and my general understanding of what can be done with it, I can start to see a teenie, very tiny glimpse of how I might be able to churn out the hefty (at least in my mind) capstone project that I would like to do by this August. (Fingers crossed.) It's amazing how I have so many moments where I don't feel that I solidly know as much as I think I would like to, but then when I look back at how far I've come since the first assignments, I'm nearly mindblown. I can't wait to get to digging deeper into Firebase to explore authentication and hosting soon."
     }
   ]
 }
