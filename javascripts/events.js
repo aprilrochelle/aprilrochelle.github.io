@@ -1,5 +1,5 @@
-const {getAllBlogs,} = require('./firebaseApi');
-const {createBlogPosts,} = require('./blogs');
+const {getAllBlogs, getAllProjects,} = require('./firebaseApi');
+const {createBlogPosts, createProjectPosts,} = require('./dom');
 
 const getAllBlogsEvent = () => {
   getAllBlogs()
@@ -11,6 +11,17 @@ const getAllBlogsEvent = () => {
     });
 };
 
+const getAllProjectsEvent = () => {
+  getAllProjects()
+    .then((results) => {
+      createProjectPosts(results);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+};
+
 module.exports = {
   getAllBlogsEvent,
+  getAllProjectsEvent,
 };
