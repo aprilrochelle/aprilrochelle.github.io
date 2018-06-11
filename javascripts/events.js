@@ -1,5 +1,5 @@
 const {getAllBlogs, getAllProjects,} = require('./firebaseApi');
-const {createBlogPosts, createProjectPosts,} = require('./dom');
+const {createBlogPosts, createProjectCards,} = require('./dom');
 
 const getAllBlogsEvent = () => {
   getAllBlogs()
@@ -14,7 +14,7 @@ const getAllBlogsEvent = () => {
 const getAllProjectsEvent = () => {
   getAllProjects()
     .then((results) => {
-      createProjectPosts(results);
+      createProjectCards(results);
     })
     .catch((error) => {
       console.error(error);
