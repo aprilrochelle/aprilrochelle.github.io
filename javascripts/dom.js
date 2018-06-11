@@ -2,6 +2,17 @@ const writeToDom = (input, divId) => {
   $(`#${divId}`).html(input);
 };
 
+const createBlogPosts = (array) => {
+  let blogPost = '';
+  array.forEach((blogObj) => {
+    blogPost += `<h3 class="proj-id">${blogObj.id}</h3>`;
+    blogPost += `<h2 class="proj-title">${blogObj.title}</h2>`;
+    blogPost += `<p>${blogObj.date}<p>`;
+    blogPost += `<p>${blogObj.post}</p>`;
+  });
+  writeToDom(blogPost, 'blog');
+};
+
 const createProjectCards = (array) => {
   let projectCard = '';
   array.forEach((projectObj) => {
@@ -15,23 +26,7 @@ const createProjectCards = (array) => {
   writeToDom(projectCard, 'project');
 };
 
-const executeOnLoad = () => {
-  const data = JSON.parse(this.responseText);
-  createProjectCards(data.projects);
-};
-
-const executeIfFail = () => {
-  console.log('Something went wrong.');
-};
-
-const startApp = () => {
-  const myRequest = new XMLHttpRequest();
-  myRequest.addEventListener('load', executeOnLoad);
-  myRequest.addEventListener('error', executeIfFail);
-  myRequest.open('GET', '/db/projects.json');
-  myRequest.send();
-};
-
 module.exports = {
-  startApp,
+  createBlogPosts,
+  createProjectCards,
 };
