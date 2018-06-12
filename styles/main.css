@@ -8,8 +8,14 @@ body {
 /* Layout Styles_____________ */
 
 .page-wrapper {
-    width: 75%;
+    width: 95%;
     margin: 0 auto;
+}
+
+.project {
+  background-color: lightgrey;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 footer {
@@ -33,13 +39,8 @@ h3 + h4 {
     margin-top: 0;
 }
 
-.proj-id {
-    margin-bottom: 5px;
-    margin-top: 45px;
-}
-
 .proj-title {
-    margin: 5px 0;
+    margin: 15px 0;
 }
 
 /* Special Styles____________ */
@@ -70,6 +71,11 @@ section a:hover {
     font-weight: 700;
 }
 
+.proj-btn {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
 /* Image Styles____________ */
 
 .icon {
@@ -78,4 +84,10 @@ section a:hover {
 
 .icon:hover {
     opacity: .65;
+}
+
+.proj-img {
+  max-width: 85%;
+  display: block;
+  margin: 10px auto;
 }
