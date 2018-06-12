@@ -5,9 +5,8 @@ const writeToDom = (input, divId) => {
 const createBlogPosts = (array) => {
   let blogPost = '';
   array.forEach((blog) => {
-    blogPost += `<h3 class="blog-id">${blog.id}</h3>`;
-    blogPost += `<h2 class="blog-title">${blog.title}</h2>`;
-    blogPost += `<p>${blog.date}<p>`;
+    blogPost += `<h3 class="blog-title">${blog.title}</h3>`;
+    blogPost += `<h5>${blog.date}</h5>`;
     blogPost += `<p>${blog.post}</p>`;
   });
   writeToDom(blogPost, 'blog');
