@@ -4,25 +4,30 @@ const writeToDom = (input, divId) => {
 
 const createBlogPosts = (array) => {
   let blogPost = '';
-  array.forEach((blogObj) => {
-    blogPost += `<h3 class="proj-id">${blogObj.id}</h3>`;
-    blogPost += `<h2 class="proj-title">${blogObj.title}</h2>`;
-    blogPost += `<p>${blogObj.date}<p>`;
-    blogPost += `<p>${blogObj.post}</p>`;
+  array.forEach((blog) => {
+    blogPost += `<h3 class="blog-title">${blog.title}</h3>`;
+    blogPost += `<h5>${blog.date}</h5>`;
+    blogPost += `<p>${blog.post}</p>`;
   });
   writeToDom(blogPost, 'blog');
 };
 
 const createProjectCards = (array) => {
   let projectCard = '';
-  array.forEach((projectObj) => {
-    projectCard += `<h3 class="proj-id">${projectObj.id}</h3>`;
-    projectCard += `<h2 class="proj-title">${projectObj.title}</h2>`;
-    projectCard += `<img src="${projectObj.imageUrl}" width="300">`;
-    projectCard += `<p>${projectObj.description}</p>`;
-    projectCard += `<p><a href="${projectObj.githubUrl}" target="_blank">Explore on Github</a></p>`;
+  projectCard += `<div class="container-fluid">`;
+  projectCard +=  `<div class="row">`;
+  array.forEach((proj) => {
+    projectCard += `<div class="col-md-8 col-md-offset-2 project">`;
+    projectCard +=  `<h2 class="proj-title">${proj.title}</h2>`;
+    projectCard +=  `<img class="proj-img" src="${proj.thumbnail}" alt="Project Screenshot">`;
+    projectCard +=  `<h4 class="description">${proj.description}</h4>`;
+    projectCard +=  `<p><b>Technologies Used:</b> ${proj.technologiesUsed}</p>`;
+    projectCard +=  `<a class="proj-btn btn btn-sm btn-default" role="button" href="${proj.url}" target="_blank">View Live Demo</a>`;
+    projectCard +=  `<a class="proj-btn btn btn-sm btn-default" role="button" href="${proj.github}" target="_blank">Explore on Github</a>`;
+    projectCard += `</div>`;
   });
-
+  projectCard +=  `</div>`;
+  projectCard += `</div>`;
   writeToDom(projectCard, 'project');
 };
 

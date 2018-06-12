@@ -1,13 +1,13 @@
 {
   "projects": {
     "project1": {
-      "title": "Totally Project 1",
-      "thumbnail": "https://XXX.jpg",
-      "description": "This is a product and technical description for the project",
-      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+      "title": "Local Weather App",
+      "thumbnail": "https://raw.githubusercontent.com/aprilrochelle/localWeather/master/screens/wx4-4.png",
+      "description": "Used API calls to retrieve data used to code a web app designed to display and forecast weather conditions by zip code. Created, read, updated and deleted data in Firebase database and added user authentication via Firebase.",
+      "technologiesUsed": "HTML, CSS, JavaScript, AJAX and JSON, jQuery, Task Automation with Grunt, Bootstrap 3, Firebase",
       "available": true,
-      "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "url": "https://localweather-aw.firebaseapp.com",
+      "github": "https://github.com/aprilrochelle/localWeather"
     },
     "project2": {
       "title": "Totally Project 2",
