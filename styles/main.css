@@ -58,7 +58,6 @@ body {
 }
 
 footer {
-    border-top: 2px solid lightgrey;
     margin-top: 25px;
     text-align: center;
     padding: 10px 0 0 0;
@@ -98,6 +97,11 @@ h3 {
 
 .blog-title {
   margin-top: 25px;
+}
+
+footer > p {
+  font-style: italic;
+  color: rgb(145, 145, 145);
 }
 
 /* Special Styles____________ */
