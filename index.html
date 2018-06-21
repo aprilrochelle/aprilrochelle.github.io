@@ -1,89 +1,115 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>April's Personal Site | Professional History</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="./styles/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet">
-    </head>
-    <body>
-      <header>
-          <img class="logo" src="img/aw-logo.png">
-          <img class="background" src="img/lineBackground.jpg">
-      </header>
-      <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-            <div class="link-group">
-              <ul class="nav navbar-nav">
-                <li><a class="navbar-link" href="index.html">Professional History</a></li>
-                <li><a class="navbar-link" href="contact.html">Contact</a></li>
-                <li><a class="navbar-link" href="projects.html">Projects</a></li>
-                <li><a class="navbar-link" href="blogs.html">Blogs</a></li>
-              </ul>
-            </div>
+
+<head>
+  <meta charset="utf-8" />
+  <title>April's Personal Site | Professional History</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="link-group">
+        <ul class="nav navbar-nav">
+          <li>
+            <a class="navbar-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="#work">Work</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="#blogs">Blogs</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="header-block">
+    <img class="logo" src="img/aw-logo.png">
+    <!-- <img class="background" src="img/lineBackground.jpg"> -->
+  </div>
+  <div id="about" class="dark-div">
+    <h1>About Me</h1>
+    <p>Lorizzle ipsum dolizzle sit mah nizzle, shiz adipiscing elizzle. Nullizzle sapien yo mamma, black volutpizzle, suscipit
+      quis, fo shizzle my nizzle vel, dawg. Pellentesque yo mamma hizzle. Sed eros. Fusce izzle shizznit shizzlin dizzle
+      turpis own yo' tempizzle. Maurizzle gizzle bling bling izzle turpizzle. My shizz in tortor. Sheezy eleifend rhoncizzle
+      yippiyo. In hac go to hizzle platea cool. Dawg dapibizzle. Curabitizzle tellizzle urna, pretizzle phat, mattizzle stuff,
+      eleifend we gonna chung, nunc. We gonna chung suscipizzle. Integizzle semper fo shizzle sizzle yippiyo. Shizzlin dizzle
+      ullamcorper. Aliquam check it out crunk things dizzle. Vestibulizzle ante ipsum primizzle shizznit boom shackalack
+      orci luctus brizzle ultricizzle shizzlin dizzle cubilia Own yo'; Aenean shizzlin dizzle. Mah nizzle bling bling shiznit
+      tristique sheezy ass netizzle gangster malesuada its fo rizzle ac turpizzle egestizzle. Crackalackin tempor hendrerit
+      velizzle. Aliquam erizzle volutpat. Its fo rizzle bizzle break it down, scelerisque izzle, fizzle a, fringilla ma nizzle,
+      arcu. Nulla its fo rizzle. Donizzle fermentum, est at pharetra we gonna chung, hizzle erat sheezy pizzle, nizzle ullamcorper
+      urna dolizzle quis nibh. Vivamus da bomb neque, nizzle crazy, ornare izzle, shiznit nizzle, leo. Praesent purus sizzle,
+      uhuh ... yih! sit amet, interdum yo, dignissim go to hizzle, arcu. Gangster egizzle sheezy izzle shizzlin dizzle ullamcorpizzle
+      black. Owned shiz. Mauris pimpin' urna, tempor izzle, scelerisque venenatizzle, sodales fo shizzle, shizzlin dizzle.
+      Etizzle gravida.</p>
+  </div>
+  <div id="work" class="light-div">
+    <h1>Recent Work</h1>
+    <div id="project-cards"></div>
+  </div>
+  <div id="blogs" class="dark-div">
+    <h1>Blogs</h1>
+    <div id="blog-cards"></div>
+  </div>
+  <div id="contact" class="light-div">
+    <h1>Contact</h1>
+    <div class="container-fluid text-center">
+      <div class="row icon-row">
+        <div class="col-sm-3">
+          <div class="contact">
+            <a href="mailto:aprilrwat@gmail.com">
+              <img src="./img/email.svg" class="icon">
+            </a>
+            <p>Email</p>
           </div>
-        </nav>
-        <div class="page-wrapper">
-          <h1>Professional History</h1>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-4 employment">
-                    <h3>Chique Design</h3>
-                    <h5 class="dates">2013 to present</h5>
-                </div>
-                <div class="duties col-md-8">
-                  <ul>
-                      <li>Assess client marketing needs through thorough consultation; follow up with recommendations for optimal solutions.</li>
-                      <li>Utilize Adobe Photoshop, InDesign, Muse and other software to design and develop marketing materials, including but not limited to flyers, business cards, postcards, pamphlets, signs/banners, logos, websites, and e-newsletters.</li>
-                      <li>Collaborate with local and regional print companies to provide clients with the most cost-effective print solutions.</li>
-                  </ul>
-                </div>
-              </div>
-            <!-- </div> -->
-            <div class="row">
-              <div class="employment col-md-4">
-                  <h3>Belhaven University</h3>
-                  <h5 class="dates">2008 to 2013</h5>
-              </div>
-              <div class="duties col-md-8">
-                  <ul>
-                      <li>Designed/developed informational print materials for distribution to the student body as needed. Also provided feedback and approval of marketing materials for Adult Ed.</li>
-                      <li>Created, compiled, and maintained PowerCampus and Excel reports for statistical analysis of the university’s adult and graduate programs in the areas of enrollment, marketing, and development.</li>
-                      <li>Provided best practices training and support for Directors of the Jackson, Orlando, Memphis, Houston, Chattanooga, Atlanta, and Online/Virtual campuses servicing adult and graduate students.</li>
-                      <li>Oversaw student academic advising, student scheduling, and course planning for Memphis campus students; also served as primary liaison between Memphis campus students and Jackson campus offices such as Student Financial Planning and Registrar’s Office.</li>
-                      <li>Managed Memphis campus’ student academic records in PowerCampus database system.</li>
-                  </ul>
-              </div>
-            </div>
-            <div class="row">
-                <div class="employment col-md-4">
-                    <h3>Victory University</h3>
-                    <h5 class="dates">2006 to 2008</h5>
-                </div>
-                <div class="duties col-md-8">
-                    <ul>
-                        <li>Constructed and maintained the university’s first usable, accurate degree audit system for 80+ academic programs in Datatel Colleague Live/R18 Live system.</li>
-                        <li>Conducted all students’ graduation evaluations in Datatel to determine commencement eligibility; counseled students regarding academic progress.</li>
-                        <li>Transformed student graduation/exit process for greater efficiency, resulting in greater student/alumnus satisfaction.</li>
-                        <li>Addressed issues of academic dishonesty by serving on academic disciplinary committee.</li>
-                        <li>Certified, advised and registered all International Students; also processed changes/updates for students in SEVIS database.</li>
-                    </ul>
-                </div>
-            </div>
-          </div>
-          <footer>
-              <nav>
-                  <a href="index.html">Professional History</a>
-                  <a href="contact.html">Contact</a>
-                  <a href="projects.html">Projects</a>
-                  <a href="blogs.html">Blogs</a>
-              </nav>
-          </footer>
         </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-        <script src="dist/app.js"></script>
-    </body>
+        <div class="col-sm-3">
+          <div class="contact">
+            <a href="https://github.com/aprilrochelle">
+              <img src="./img/github.svg" class="icon">
+            </a>
+            <p>Github Profile</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="contact">
+            <a href="http://www.instagram.com/chiquedesign1">
+              <img src="./img/instagram.svg" class="icon">
+            </a>
+            <p>Instagram</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="contact">
+            <a href="http://www.facebook.com/chiquedesign1">
+              <img src="./img/facebook.svg" class="icon">
+            </a>
+            <p>Facebook</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script src="dist/app.js"></script>
+</body>
+
 </html>
