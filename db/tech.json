@@ -1,52 +1,60 @@
 {
   "technologies": {
       "tech01": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/AJAX.png",
+        "name": "AJAX"
       },
       "tech02": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/Boostrap_logo.svg",
+        "name": "Bootstrap"
       },
       "tech03": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/browserify.png",
+        "name": "Browserify"
       },
       "tech04": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/CSS3.png",
+        "name": "CSS"
       },
       "tech05": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/firebase.png",
+        "name": "Firebase"
       },
       "tech06": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/Git-Logo-2Color.png",
+        "name": "Git"
       },
       "tech07": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/github.svg",
+        "name": "Github"
       },
       "tech08": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/grunt.png",
+        "name": "Grunt"
       },
       "tech09": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/html.png",
+        "name": "HTML"
       },
       "tech10": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/jquery.gif",
+        "name": "jQuery"
       },
       "tech11": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/js.jpg",
+        "name": "JavaScript"
       },
       "tech12": {
-        "img": "Getting Started: HTML, CSS & Github",
-        "name": "02/25/2018"
+        "img": "./img/npm.png",
+        "name": "Node Package Manager"
+      },
+      "tech13": {
+        "img": "./img/React-logo-1.png",
+        "name": "React"
+      },
+      "tech14": {
+        "img": "./img/Sass.png",
+        "name": "Sass"
       }
   }
 }
