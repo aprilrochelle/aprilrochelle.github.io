@@ -1,0 +1,52 @@
+{
+  "technologies": {
+      "tech01": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech02": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech03": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech04": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech05": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech06": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech07": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech08": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech09": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech10": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech11": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      },
+      "tech12": {
+        "img": "Getting Started: HTML, CSS & Github",
+        "name": "02/25/2018"
+      }
+  }
+}

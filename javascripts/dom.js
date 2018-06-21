@@ -9,7 +9,7 @@ const createBlogPosts = (array) => {
     blogPost += `<h5>${blog.date}</h5>`;
     blogPost += `<p>${blog.post}</p>`;
   });
-  writeToDom(blogPost, 'blog');
+  writeToDom(blogPost, 'blog-cards');
 };
 
 const createProjectCards = (array) => {
@@ -28,7 +28,7 @@ const createProjectCards = (array) => {
   });
   projectCard +=  `</div>`;
   projectCard += `</div>`;
-  writeToDom(projectCard, 'project');
+  writeToDom(projectCard, 'project-cards');
 };
 
 module.exports = {
