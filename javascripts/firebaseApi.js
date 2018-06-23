@@ -9,7 +9,7 @@ const getAllBlogs = () => {
     const allBlogsArray = [];
     $.ajax({
       method: 'GET',
-      url: `${firebaseConfig.databaseURL}/blogs.json`,
+      url: `${firebaseConfig.databaseURL}/blogs/blogs.json`,
     })
       .done((allBlogsObj) => {
         if (allBlogsObj !== null) {
@@ -48,8 +48,31 @@ const getAllProjects = () => {
   });
 };
 
+const getAllIcons = () => {
+  return new Promise((resolve, reject) => {
+    const allIconsArray = [];
+    $.ajax({
+      method: 'GET',
+      url: `${firebaseConfig.databaseURL}/tech/technologies.json`,
+    })
+      .done((allIconsObj) => {
+        if (allIconsObj !== null) {
+          Object.keys(allIconsObj).forEach((fbKey) => {
+            allIconsObj[fbKey].id = fbKey;
+            allIconsArray.push(allIconsObj[fbKey]);
+          });
+        }
+        resolve(allIconsArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 module.exports = {
   setConfig,
   getAllBlogs,
   getAllProjects,
+  getAllIcons,
 };
