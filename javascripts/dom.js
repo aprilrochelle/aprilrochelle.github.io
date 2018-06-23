@@ -2,6 +2,19 @@ const writeToDom = (input, divId) => {
   $(`#${divId}`).html(input);
 };
 
+const createTechCards = (array) => {
+  let techCard = '';
+  techCard = `<div class="tech-card-list">`;
+  array.forEach((tech) => {
+    techCard += `<div class="tech-card text-center">`;
+    techCard += `<img class="tech-pic" src="${tech.img}">`;
+    techCard += `<h4>${tech.name}</h4>`;
+    techCard += `</div>`;
+  });
+  techCard += `</div>`;
+  writeToDom(techCard, 'tech-cards');
+};
+
 const createBlogPosts = (array) => {
   let blogPost = '';
   array.forEach((blog) => {
@@ -34,4 +47,5 @@ const createProjectCards = (array) => {
 module.exports = {
   createBlogPosts,
   createProjectCards,
+  createTechCards,
 };
