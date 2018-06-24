@@ -29,6 +29,12 @@ html, body {
   position: relative;
 }
 
+#work {
+  background: url('../img/whiteShadows.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* .header-block::after {
   content: "";
   background: url('../img/lineBackground.jpg');
@@ -160,6 +166,7 @@ footer > p {
 .tech-card-list {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .tech-card {
