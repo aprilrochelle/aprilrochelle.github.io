@@ -167,22 +167,30 @@ footer > p {
   flex-wrap: wrap;
 }
 
-.tech-card-list {
+/* .tech-card-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 .tech-card {
-  min-height: 200px;
-  width: 18%;
-  margin: 1%;
+  height: 175px;
+  margin-bottom: 35px;
+}
+
+.techpic-div {
+  height: 150px;
+  position: relative;
 }
 
 .tech-pic {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 80%;
+  max-height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Image Styles____________ */
