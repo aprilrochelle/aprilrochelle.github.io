@@ -4,13 +4,19 @@ const writeToDom = (input, divId) => {
 
 const createTechCards = (array) => {
   let techCard = '';
-  techCard = `<div class="tech-card-list">`;
+  techCard = `<div class="container-fluid">`;
+  techCard += `<div class="row">`;
   array.forEach((tech) => {
-    techCard += `<div class="tech-card text-center">`;
-    techCard += `<img class="tech-pic" src="${tech.img}">`;
-    techCard += `<h4>${tech.name}</h4>`;
+    techCard += `<div class="col-md-3 text-center">`;
+    techCard +=   `<div class="tech-card">`;
+    techCard +=     `<div class="techpic-div">`;
+    techCard +=       `<img class="tech-pic" src="${tech.img}">`;
+    techCard +=     `</div>`;
+    techCard +=     `<h4>${tech.name}</h4>`;
+    techCard +=   `</div>`;
     techCard += `</div>`;
   });
+  techCard += `</div>`;
   techCard += `</div>`;
   writeToDom(techCard, 'tech-cards');
 };
