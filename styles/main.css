@@ -98,7 +98,7 @@ h1 {
   text-transform: uppercase;
   font-stretch: condensed;
   font-weight: bold;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(219, 177, 72);
   margin-top: 0;
 }
 
@@ -133,6 +133,10 @@ footer > p {
   margin-bottom: 15px;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgb(219, 177, 72);
+}
+
 .navbar-nav {
   width: 100%;
   text-align: center;
@@ -157,7 +161,7 @@ footer > p {
 }
 
 .row {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;
@@ -165,7 +169,8 @@ footer > p {
 
 .tech-card-list {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -181,6 +186,12 @@ footer > p {
 }
 
 /* Image Styles____________ */
+
+.bio-pic {
+  border-radius: 50%;
+  max-width: 275px;
+  vertical-align: top;
+}
 
 .icon {
     width: 35%;
