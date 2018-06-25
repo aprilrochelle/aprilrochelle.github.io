@@ -13,17 +13,23 @@ Practiced coding HTML, CSS and JavaScript with the creation of a personal resume
  - Firebase
 
 ## Screenshots
-Professional History
-![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/aw1.png)
+Home
+![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw1.png)
 
-Contact Links
-![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/aw2.png)
+About
+![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw2.png)
 
-Projects
-![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/aw3.png)
+Recent Work
+![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw3.png)
 
-Blog Entries
-![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/aw4.png)
+Technologies
+![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw4.png)
+
+Contact
+![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw5.png)
+
+Blogs
+![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw6.png)
 
 ## How to Run
  1. Clone down this repo, and cd into project
