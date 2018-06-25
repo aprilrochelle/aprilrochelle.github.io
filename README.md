@@ -42,6 +42,9 @@ Blogs
  1. Then type ```hs -p 9999```
  1. In your browser navigate to: localhost:9999
 
+## View Live
+Check it out here: [aprilrwatson.com](http://aprilrwatson.com)
+
 
 ## Contributors
 [April Nichols](https://github.com/aprilrochelle)
