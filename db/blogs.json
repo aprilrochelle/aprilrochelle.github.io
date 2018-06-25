@@ -69,6 +69,11 @@
             "title": "Firebase Authorization",
             "date": "06/09/2018",
             "post": "This week's instruction on adding user authentication to our apps has me feeling a little more official in coding. The ability to personalize user experience is pretty cool, and also kinda the whole point of building applications. So I'm glad that it's cool, since it's also necessary. I love that Firebase feels fairly user-friendly in setting up and integrating different features like user registration and sign-in. Although we went backwards with implenting authorization at the end of our movie history app and had to change a few lines of code, it was okay because the Firebase docs are pretty clear and straightforward and I feel that my understanding of how to organize the code in different modules is increasing. I'm definitely interested in learning more about implementation of user-specific features as we move forward, and with this week's instruction, I've completed the first step in doing so."
-        }
+        },
+        "blog15": {
+          "title": "Sass",
+          "date": "06/24/2018",
+          "post": "Back in my design zone with Sass this week. As a lover of both design and order, Sass was right up my alley with organization of styling rules into partial .scss files that automatically compile down to a main CSS file. The ability to nest CSS rules for element or classes within the parent element's rules was pretty cool. However, as a designer, I LOVE variables, mixins and extends, because as much as I change my mind about colors, font sizes, etc., it is an absolute need for me to be able to change those values in one place and have those changes reflected everywhere in the code. My only regret (for lack of a better word) is that we did not install Sass as part of the in-class code along. It was already installed for us on that project. So later when I tried installing it from the Sass website documentation instructions to use for my personal site, it didn't install everything that I needed and I was unable to get it figured out right away. So I would like to have gone through the step of actually installing Sass as part of the in-class exercise."
+      }
     }
 }
