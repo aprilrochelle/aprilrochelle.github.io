@@ -22,11 +22,8 @@ About
 Recent Work
 ![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw3.png)
 
-Technologies
+Technologies and Contact
 ![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw4.png)
-
-Contact
-![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw5.png)
 
 Blogs
 ![Webpage](https://raw.githubusercontent.com/aprilrochelle/aprilrochelle.github.io/master/screenshot/arw6.png)
