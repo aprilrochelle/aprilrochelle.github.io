@@ -195,7 +195,8 @@ footer > p {
 }
 
 .icon {
-    width: 35%;
+    width: 95px;
+    height: 95px;
 }
 
 .icon:hover {
