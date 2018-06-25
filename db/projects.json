@@ -10,22 +10,22 @@
       "github": "https://github.com/aprilrochelle/localWeather"
     },
     "project2": {
-      "title": "Totally Project 2",
-      "thumbnail": "https://XXX.jpg",
-      "description": "This is a product and technical description for the project",
-      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+      "title": "Movie Maker App",
+      "thumbnail": "https://raw.githubusercontent.com/aprilrochelle/movie-maker/master/img/mm-project-screen.png",
+      "description": "Practiced modern JavaScript setup with Browserify, use of task runners, coding event listeners and retrieval of data from JSON files by coding a movie maker application.",
+      "technologiesUsed": "HTML, CSS, JavaScript, Browserify, Grunt, Bootstrap 3, task automation",
       "available": true,
-      "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "url": "https://aw-moviemaker.firebaseapp.com/",
+      "github": "https://github.com/aprilrochelle/movie-maker"
     },
     "project3": {
-      "title": "Totally Project 3",
-      "thumbnail": "https://XXX.jpg",
-      "description": "This is a product and technical description for the project",
-      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+      "title": "Ex Factor: the Ex Tracker App",
+      "thumbnail": "https://raw.githubusercontent.com/aprilrochelle/ex-tracker/master/screen/exmain1.png",
+      "description": "Implemented the use of JQuery and making AJAX calls in coding a web app designed to track your ex.",
+      "technologiesUsed": "HTML, CSS, JavaScript, Browserify, Grunt, Bootstrap 3, jQuery, AJAX, task automation",
       "available": true,
-      "url": "https://XXX.firebaseapp.com",
-      "github": "https://github.com/XXX"
+      "url": "https://aw-extracker.firebaseapp.com/",
+      "github": "https://github.com/aprilrochelle/ex-tracker"
     }
   }
 }
