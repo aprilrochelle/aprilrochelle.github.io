@@ -63,20 +63,12 @@ html, body {
   padding: 55px 25px 25px 25px;
 }
 
-.project {
+/* .project {
   background-color: rgb(211, 211, 211, .8);
   margin-bottom: 10px;
   border-radius: 5px;
   padding: 25px;
-}
-
-.project:hover {
-  background-color: rgb(0, 0, 0, .8);
-  color: white;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  padding: 25px;
-}
+} */
 
 footer {
     margin-top: 25px;
@@ -131,6 +123,23 @@ footer > p {
 .proj-btn {
   margin-right: 10px;
   margin-bottom: 15px;
+  border-radius: 2px;
+  background-color: none;
+  color: black;
+  border: 2px solid black;
+}
+
+.proj-btn:hover {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  background-color: none;
+  color: rgb(219, 177, 72);
+  border: 2px solid rgb(219, 177, 72);
+}
+
+.row.proj-row {
+  margin-bottom: 25px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -217,13 +226,7 @@ footer > p {
 .proj-img {
   max-width: 85%;
   display: block;
-  margin: 10px auto;
-}
-
-.proj-img:hover {
-  max-width: 85%;
-  display: block;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 .logo {

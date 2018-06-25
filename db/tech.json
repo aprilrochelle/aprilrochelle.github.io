@@ -55,6 +55,14 @@
       "tech14": {
         "img": "./img/Sass.png",
         "name": "Sass"
+      },
+      "tech15": {
+        "img": "./img/Photoshop.png",
+        "name": "Photoshop"
+      },
+      "tech16": {
+        "img": "./img/illustrator.png",
+        "name": "Illustrator"
       }
   }
 }
