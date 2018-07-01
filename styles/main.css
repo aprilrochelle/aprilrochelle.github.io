@@ -12,7 +12,7 @@ html, body {
    background-image: url("../img/lineBackground.jpg");
 
    /* Set a specific height */
-   height: 100%;
+   height: 100vh;
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
@@ -21,33 +21,11 @@ html, body {
    background-size: cover;
 }
 
-.header-block {
-  width: 100%;
-  height: 100vh;
-  margin-top: 50px;
-  display: block;
-  position: relative;
-}
-
 #work {
   background: url('../img/whiteShadows.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/* .header-block::after {
-  content: "";
-  background: url('../img/lineBackground.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-} */
 
 .dark-div {
   background-color: #000;
@@ -195,7 +173,7 @@ footer > p {
 
 .tech-pic {
   max-width: 90%;
-  max-height: 70%;
+  max-height: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -230,8 +208,10 @@ footer > p {
 }
 
 .logo {
-  display: block;
-  max-width: 80%;
-  margin: 0 auto;
-  padding-top: 200px;
+  max-width: 70%;
+  max-height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
