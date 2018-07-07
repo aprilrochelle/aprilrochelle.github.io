@@ -3,7 +3,7 @@
     "project1": {
       "title": "Local Weather",
       "thumbnail": "https://raw.githubusercontent.com/aprilrochelle/localWeather/master/screens/wx4-4.png",
-      "description": "After registration and sign-in, user is able to retrieve current weather by entering a 5-digit zip code. The user can then view the 3-day or 5-day forecast for that location, and save forecast details to the favorites collection. Forecasts saved into the user's collection can be deleted or marked 'Scary' if weather event is scary. Used Open Weather API to retrieve weather data. Created, read, updated and deleted data in Firebase database and added user authentication via Firebase.",
+      "description": "After registration and sign-in, this app enables the user to retrieve current weather as well as 3- and 5-day forecasts by entering a 5-digit zip code. Users can also save forecast details to the favorites collection and mark them 'Scary' if weather event is scary.",
       "technologiesUsed": "HTML, CSS, JavaScript, AJAX and JSON, jQuery, Task Automation with Grunt, Bootstrap 3, Firebase",
       "available": true,
       "url": "https://localweather-aw.firebaseapp.com",
@@ -12,7 +12,7 @@
     "project2": {
       "title": "Movie Maker",
       "thumbnail": "https://raw.githubusercontent.com/aprilrochelle/movie-maker/master/img/mm-project-screen.png",
-      "description": "Movie Maker is designed to accept a budget amount from the user, then allow for selection of various elements necessary in order to make a movie. As the user selects actors, animals, special effects and locations, a progress bar advances and the amount of each selection is deducted from the budget remaining. If the user makes at least one selection from each category and does not exceed the total budget, then (s)he can make the movie. If the user goes over budget or does not select from each category, (s)he cannot make the movie. Practiced modern JavaScript setup with Browserify, use of task runners, coding event listeners and retrieval of data from JSON files.",
+      "description": "Movie Maker accepts a budget amount from the user, then allows for selection of various elements necessary in order to make a movie. If the user makes at least one selection from each category and does not exceed the total budget, then (s)he can make the movie. If the user goes over budget or does not select from each category, (s)he cannot make the movie.",
       "technologiesUsed": "HTML, CSS, JavaScript, Browserify, Grunt, Bootstrap 3, task automation",
       "available": true,
       "url": "https://aw-moviemaker.firebaseapp.com/",
@@ -21,7 +21,7 @@
     "project3": {
       "title": "Ex Factor: the Ex Tracker",
       "thumbnail": "https://raw.githubusercontent.com/aprilrochelle/ex-tracker/master/screen/exmain1.png",
-      "description": "Ex Factor is a reverse-stalking application designed to help the user avoid exes based on the locations that they frequent. User is able to select a time of day to filter and display locations where an ex might be found at that time. The user can also enter search terms such as a street name or location name to filter results, or click on an ex's image to view locations pertaining to only the specified ex. Implemented the use of JQuery and making AJAX calls.",
+      "description": "Ex Factor is a reverse-stalking application designed to help the user avoid exes based on the locations that they frequent. User is able to enter search terms, select a time of day, or select a specific ex to filter and display locations where an ex might be found.",
       "technologiesUsed": "HTML, CSS, JavaScript, Browserify, Grunt, Bootstrap 3, jQuery, AJAX, task automation",
       "available": true,
       "url": "https://aw-extracker.firebaseapp.com/",
