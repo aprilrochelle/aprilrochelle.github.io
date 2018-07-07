@@ -79,6 +79,11 @@
         "title": "React",
         "date": "07/01/2018",
         "post": "Not really much to tell about my first week with React, except for 'OMG.' I mean, we were forewarned that we needed to be on our A-game since React has a bit of a learning curve, but now that I get to see now much of an understatement the word 'bit' was, I'm a little concerned about learning something so heavy so close to capstone planning and how well I'll do with cranking out the (already sufficiently challenging) project idea implementing React. After nearly a week since the initial introduction, although I do like the concept of component-based code structure, I'm still trying to sort out in my head 'this' and states and props and what gets passed into what, and I feel real upside down right now. I see quite a bit of time seeking out extra resources to explain React in my (immediate) future. Like today. Because being so close to the end of the front end instruction, I clearly have no time to waste in being lost."
-    }
+    },
+    "blog17": {
+      "title": "React, Part Deux",
+      "date": "07/06/2018",
+      "post": "Not sure how much time this is going to take to get comfortable with React, but I am pleasantly surprised at the fact that I have yet to completely flip out. I feel like there are things that are slowly starting to make sense to me, but I'm still not quite sure how or why yet. They are more inklings or 'feelings' of things being right than actual understandings of what's right. Super ready to get to class and start on the next code along so that these feelings can turn into knowings... Because capstones being right around the corner make me super anxious, and my project was my entire motivation for coming to NSS. So I definitely intend to double down on my React study this week."
+  }
     }
 }
