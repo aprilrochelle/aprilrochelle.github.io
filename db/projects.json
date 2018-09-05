@@ -19,13 +19,13 @@
       "github": "https://github.com/aprilrochelle/movie-maker"
     },
     "project3": {
-      "title": "Ex Factor: the Ex Tracker",
-      "thumbnail": "https://raw.githubusercontent.com/aprilrochelle/ex-tracker/master/screen/exmain1.png",
-      "description": "Ex Factor is a reverse-stalking application designed to help the user avoid exes based on the locations that they frequent. User is able to enter search terms, select a time of day, or select a specific ex to filter and display locations where an ex might be found.",
-      "technologiesUsed": "HTML, CSS, JavaScript, Browserify, Grunt, Bootstrap 3, jQuery, AJAX, task automation",
+      "title": "Melapix",
+      "thumbnail": "https://raw.githubusercontent.com/aprilrochelle/melapix/master/screens/melapixHome.png",
+      "description": "Melapix is a high resolution stock photo site containing images featuring people of color. Standard users of this application are able to search, view and save images to their collection for later usage. Users with a seller (photographer) account are able to view, edit and delete their images, as well as see data displaying their images that have been saved by other users.",
+      "technologiesUsed": "React, React Router Dom, React-Bootstrap (Bootstrap 3), HTMl, JavaScript/JSX, Sass, Firebase, Photoshop CC",
       "available": true,
-      "url": "https://aw-extracker.firebaseapp.com/",
-      "github": "https://github.com/aprilrochelle/ex-tracker"
+      "url": "https://aw-melapix.firebaseapp.com/",
+      "github": "https://github.com/aprilrochelle/melapix"
     }
   }
 }
