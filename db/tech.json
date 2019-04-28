@@ -63,6 +63,26 @@
       "tech16": {
         "img": "./img/illustrator.png",
         "name": "Illustrator"
+      },
+      "tech17": {
+        "img": "./img/csharp.png",
+        "name": "C#"
+      },
+      "tech18": {
+        "img": "./img/ASP-NET-LOGO-1-300x300.png",
+        "name": "ASP.Net"
+      },
+      "tech19": {
+        "img": "./img/sql-server.png",
+        "name": "Microsoft SQL Server"
+      },
+      "tech20": {
+        "img": "./img/vscode-logo.png",
+        "name": "Visual Studio Code"
+      },
+      "tech21": {
+        "img": "./img/vs-mac_2048x2048.png",
+        "name": "Visual Studio"
       }
   }
 }
