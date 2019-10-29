@@ -70,9 +70,32 @@ const getAllIcons = () => {
   });
 };
 
+const getAllPics = () => {
+  return new Promise((resolve, reject) => {
+    const allPicsArray = [];
+    $.ajax({
+      method: 'GET',
+      url: `${firebaseConfig.databaseURL}/design/samples.json`,
+    })
+      .done((allPicsObj) => {
+        if (allPicsObj !== null) {
+          Object.keys(allPicsObj).forEach((fbKey) => {
+            allPicsObj[fbKey].id = fbKey;
+            allPicsArray.push(allPicsObj[fbKey]);
+          });
+        }
+        resolve(allPicsArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 module.exports = {
   setConfig,
   getAllBlogs,
   getAllProjects,
   getAllIcons,
+  getAllPics,
 };

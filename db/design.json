@@ -1,0 +1,44 @@
+{
+  "samples": {
+      "sample01": {
+        "img": "./img/design_samples/5thAnniversary.jpg",
+        "type": "flyer"
+      },
+      "sample02": {
+        "img": "./img/design_samples/2019PastoralAnniversary.jpg",
+        "type": "flyer"
+      },
+      "sample03": {
+        "img": "./img/design_samples/2019ToutNoir.jpg",
+        "type": "flyer"
+      },
+      "sample04": {
+        "img": "./img/design_samples/IntelAd.jpg",
+        "type": "magazine ad"
+      },
+      "sample05": {
+        "img": "./img/design_samples/K Newsom_logo_gold.png",
+        "type": "logo"
+      },
+      "sample06": {
+        "img": "./img/design_samples/LiveBirthday18.jpg",
+        "type": "flyer"
+      },
+      "sample07": {
+        "img": "./img/design_samples/oil label2 growth.jpg",
+        "type": "logo & product label"
+      },
+      "sample08": {
+        "img": "./img/design_samples/Rosemark_new_logo_R.png",
+        "type": "logo"
+      },
+      "sample09": {
+        "img": "./img/design_samples/SBB_logo.png",
+        "type": "logo"
+      },
+      "sample10": {
+        "img": "./img/design_samples/ThickFit logo.png",
+        "type": "logo"
+      }
+  }
+}
