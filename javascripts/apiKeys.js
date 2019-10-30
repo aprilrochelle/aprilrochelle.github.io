@@ -1,5 +1,5 @@
 const {setConfig,} = require('./firebaseApi');
-const {getAllBlogsEvent, getAllProjectsEvent, getAllTechIcons,} = require('./events');
+const {getAllBlogsEvent, getAllProjectsEvent, getAllTechIcons, getAllDesignPics,} = require('./events');
 
 const apiKeys = () => {
   return new Promise((resolve, reject) => {
@@ -21,6 +21,7 @@ const retrieveKeys = () => {
       getAllBlogsEvent();
       getAllProjectsEvent();
       getAllTechIcons();
+      getAllDesignPics();
     })
     .catch((error) => {
       console.error(error);

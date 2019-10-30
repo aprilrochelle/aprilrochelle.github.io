@@ -47,8 +47,31 @@ const createProjectCards = (array) => {
   writeToDom(projectCard, 'project-cards');
 };
 
+const createDesignCards = (array) => {
+  let designCard = '';
+  // let pathName = '';
+  designCard += `<div class="container-fluid design-card-div">`;
+  array.forEach((design) => {
+    // modalPic(design.img);
+    // pathName = `<img class="design-img" src="${design.img}" alt="Design Image">`;
+    designCard += `<div class="design-card col-md-3">`;
+    designCard +=   `<h5><b>${design.type}</b></h5>`;
+    designCard +=   `<img class="design-img" src="${design.img}" alt="Design Image">`;
+    designCard += `</div>`;
+  });
+  designCard += `</div>`;
+  writeToDom(designCard, 'design-cards');
+  // writeToDom(pathName, 'design-img-path');
+};
+
+// const modalPic = (imgPath) => {
+//  const pathName = `<img class="design-img" src="${imgPath}" alt="Design Image">`;
+//  writeToDom(pathName, 'design-img-path');
+// };
+
 module.exports = {
   createBlogPosts,
   createProjectCards,
   createTechCards,
+  createDesignCards,
 };
